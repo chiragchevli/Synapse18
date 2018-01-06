@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12709395-76e6-4882-ba5b-b84ac03e2a82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/CA_after.png" afterPath="$PROJECT_DIR$/assets/CA_after.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/CA_before.png" afterPath="$PROJECT_DIR$/assets/CA_before.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/contact_us_after.png" afterPath="$PROJECT_DIR$/assets/contact_us_after.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/contact_us_before.png" afterPath="$PROJECT_DIR$/assets/contact_us_before.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/contact_us_over.png" afterPath="$PROJECT_DIR$/assets/contact_us_over.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery_after.png" afterPath="$PROJECT_DIR$/assets/gallery_after.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery_over.png" afterPath="$PROJECT_DIR$/assets/gallery_over.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/youth_run_after.png" afterPath="$PROJECT_DIR$/assets/youth_run_after.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/youth_run_before.png" afterPath="$PROJECT_DIR$/assets/youth_run_before.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/youth_run_over.png" afterPath="$PROJECT_DIR$/assets/youth_run_over.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/home.css" afterPath="$PROJECT_DIR$/stylesheets/home.css" />
     </list>
@@ -66,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
+            <state relative-caret-position="148">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -86,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-600">
               <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
             </state>
@@ -101,16 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_us.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact_us.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="30" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -150,16 +139,16 @@
         <option value="$PROJECT_DIR$/contact_us.html" />
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/gallery.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/campus_ambassador.html" />
         <option value="$PROJECT_DIR$/youth_run.html" />
         <option value="$PROJECT_DIR$/stylesheets/gallery.css" />
         <option value="$PROJECT_DIR$/stylesheets/campus_ambassador.css" />
         <option value="$PROJECT_DIR$/stylesheets/contact_us.css" />
         <option value="$PROJECT_DIR$/stylesheets/events.css" />
-        <option value="$PROJECT_DIR$/stylesheets/home.css" />
         <option value="$PROJECT_DIR$/stylesheets/youth_run.css" />
         <option value="$PROJECT_DIR$/stylesheets/navbar.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/home.css" />
       </list>
     </option>
   </component>
@@ -344,12 +333,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515236244721</updated>
-      <workItem from="1515236246339" duration="5576000" />
+      <workItem from="1515236246339" duration="7638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5576000" />
+    <option name="totallyTimeSpent" value="7638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
@@ -413,14 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact_us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -461,22 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/youth_run.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -495,8 +460,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="-600">
           <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>

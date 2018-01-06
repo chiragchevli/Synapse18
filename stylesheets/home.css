@@ -6,7 +6,7 @@
 
 .bg-image {
     margin: auto;
-    /*background-image: url("../assets/synapse_before_new_w.png");*/
+    /*background-image: url("../assets/synapse_padding_before.png");*/
     height: 100%;
     width: 100%;
     background-position: center;
@@ -20,7 +20,7 @@
 
 .bg-over-image {
     margin: auto;
-    background-image: url("../assets/synapse_after_new_w.png");
+    background-image: url("../assets/synapse_padding_after.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,6 +28,17 @@
     width: 100%;
     opacity: 0;
 }
+
+/*.bg-image-wrapper {*/
+    /*margin: auto;*/
+    /*background-image: url("../assets/giphy.webp");*/
+    /*height: 100%;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*width: 100%;*/
+    /*opacity: 1;*/
+/*}*/
 
 @-webkit-keyframes Floating {
     0% {
