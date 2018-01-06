@@ -6,7 +6,7 @@
 
 .bg-image {
     margin: auto;
-    background-image: url("../assets/Synapse_before.png");
+    /*background-image: url("../assets/synapse_before_new_w.png");*/
     height: 100%;
     width: 100%;
     background-position: center;
@@ -20,7 +20,7 @@
 
 .bg-over-image {
     margin: auto;
-    background-image: url("../assets/Synapse.png");
+    background-image: url("../assets/synapse_after_new_w.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
