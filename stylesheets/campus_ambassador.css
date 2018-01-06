@@ -1,0 +1,56 @@
+.bg {
+    background: linear-gradient(45deg,#2193ff,#005eb9);
+    height: 100%;
+}
+
+.bg-image {
+    margin: auto;
+    background-image: url("../assets/CA_before.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: Floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.bg-over-image {
+    margin: auto;
+    background-image: url("../assets/CA_after.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0;
+}
+
+
+
+@-webkit-keyframes Floating {
+    0% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+    65% {
+        transform: translate(0, -10px) rotate(0.001deg);
+    }
+    100% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+}
+
+@keyframes Floating {
+    0% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+    65% {
+        transform: translate(0, -10px) rotate(0.001deg);
+    }
+    100% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+}
+

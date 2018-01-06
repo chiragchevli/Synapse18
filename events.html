@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Synapse'18</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/events.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="icon" href="./assets/logo.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+<div class="main-icon">
+    <img src="assets/logo.png" class="main-icon-image">
+</div>
+<span onclick="openNav()" class="navbar-button">&#9776;</span>
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="index.html">HOME</a>
+        <a href="events.html">EVENTS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact_us.html">CONTACT US</a>
+        <a href="youth_run.html">YOUTH RUN</a>
+        <a href="campus_ambassador.html">CAMPUS AMBASSADOR</a>
+    </div>
+</div>
+<div class="bg">
+    <div class="bg-image">
+        <div class="bg-over-image">
+            <div class="bg-over-image-wrapper">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  function fullWidth() {
+    $('.bg-over-image').animate({ opacity: 1 }, 3000);
+    $('.bg-over-image-wrapper').animate({ opacity: 1 }, 3000);
+  }
+
+  $(document).ready(function () {
+    $(window).on('load', fullWidth);
+  });
+
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+</body>
+</html>

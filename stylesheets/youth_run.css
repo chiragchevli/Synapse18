@@ -1,0 +1,101 @@
+.bg {
+    background-image: -webkit-repeating-radial-gradient(center center, circle farthest-corner, #f7eadd 0, #e0c5ad 100%);
+    background-image: repeating-radial-gradient(circle farthest-corner at center center, #f7eadd 0, #e0c5ad 100%);
+    background-image: -ms-repeating-radial-gradient(center center, circle farthest-corner, #f7eadd 0, #e0c5ad 100%);
+    height: 100%;
+}
+
+.bg-image {
+    margin: auto;
+    background-image: url("../assets/youth_run_before.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: Floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.bg-over-image {
+    margin: auto;
+    background-image: url("../assets/youth_run_after.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0;
+}
+
+.bg-over-image-wrapper {
+    margin: auto;
+    /*background-image: url("../assets/youth_run_over.png");*/
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation: rotating 30s linear infinite;
+}
+
+@-webkit-keyframes Floating {
+    0% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+    65% {
+        transform: translate(0, -10px) rotate(0.001deg);
+    }
+    100% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+}
+
+@keyframes Floating {
+    0% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+    65% {
+        transform: translate(0, -10px) rotate(0.001deg);
+    }
+    100% {
+        transform: translate(0, -20px) rotate(0.001deg);
+    }
+}
+
+@-webkit-keyframes rotating {
+    0% {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotating {
+    0% {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -ms-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
