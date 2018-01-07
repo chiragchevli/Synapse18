@@ -6,12 +6,9 @@
 
 .bg-image {
     margin: auto;
-    /*background-image: url("../assets/synapse_padding_before.png");*/
+    /*background-image: url("../assets/Syanpse_Gif.gif");*/
     height: 100%;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     animation-name: Floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -29,15 +26,43 @@
     opacity: 0;
 }
 
+.mid-divison {
+    height: 400px;
+    background-image: -ms-linear-gradient(bottom, #151617 0%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #151617 0%, #000000 100%);
+    background-image: -o-linear-gradient(bottom, #151617 0%, #000000 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #151617), color-stop(100, #000000));
+    background-image: -webkit-linear-gradient(bottom, #151617 0%, #000000 100%);
+    background-image: linear-gradient(to top, #151617 0%, #000000 100%);
+}
+
+.about-us {
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    background-color: #151617;
+}
+
+.about-us-text {
+    font-size: 19px;
+    color: #979797;
+    webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Roboto, sans-serif;
+    font-weight:100;
+    letter-spacing: 0.7px;
+    opacity: 0;
+}
+
 /*.bg-image-wrapper {*/
-    /*margin: auto;*/
-    /*background-image: url("../assets/giphy.webp");*/
-    /*height: 100%;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*width: 100%;*/
-    /*opacity: 1;*/
+/*margin: auto;*/
+/*background-image: url("../assets/giphy.webp");*/
+/*height: 100%;*/
+/*background-position: center;*/
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+/*width: 100%;*/
+/*opacity: 1;*/
 /*}*/
 
 @-webkit-keyframes Floating {

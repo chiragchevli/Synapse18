@@ -5,9 +5,17 @@
     <title>Synapse'18</title>
     <link rel="stylesheet" type="text/css" href="./stylesheets/home.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/typing.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/particle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/logo.png" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
+
+<script>
+</script>
+
 <body>
 <div class="main-icon">
     <img src="assets/logo.png" class="main-icon-image">
@@ -31,14 +39,105 @@
     </div>
 </div>
 
+<div class="mid-divison"></div>
+
+<div class="about-us">
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="type-js headline">
+            <h1 class="text-js">ABOUT SYNAPSE</h1>
+        </div>
+        <p class="about-us-text">Dhirubhai Ambani Institute of Information and Technology (DA-IICT), known for its research and development,
+            has emerged as the torch bearer among the premier technological institutions of Gujarat over the past 16
+            years. In these years, DA-IICT has harboured some of the best minds of the country, its students being
+            coached by its dedicated and excellent faculty.<br>
+            Synapse is a celebration - a celebration of culture, technology and life. It is about realising the
+            underlying inherent junction of the three in an electrifying atmosphere. One of the most prominent college
+            fests of Gujarat, it is a spectacle of our talent, aspirations, creativity and vision. Come 2018, we promise
+            a bigger and better Synapse.<br>
+            DA-IICT has always taught its students to carve out their own paths and not follow conventions blindly.
+            Freedom of expression is given the most importance within these walls, and that is precisely what Synapse
+            stands for. Synapse is a medium through which the youth can express their views; be it through art, culture,
+            technological skills, knowledge or entertainment. It is a time when the student community comes forward to
+            show its intensity, passion and enthusiasm.</p>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
+
+
   function fullWidth() {
-    $('.bg-over-image').animate({ opacity: 1 }, 3000);
-    $('.bg-over-image-wrapper').animate({ opacity: 1 }, 3000);
+    $('.bg-over-image').animate({ opacity: 1 }, 4000);
+  }
+
+  var x = 0;
+
+  function autoType(elementClass, typingSpeed) {
+    var thhis = $(elementClass);
+    thhis.css({
+      "position": "relative",
+      "display": "inline-block"
+    });
+    thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+    thhis = thhis.find(".text-js");
+    var text = thhis.text().trim().split('');
+    var amntOfChars = text.length;
+    var newString = "";
+    thhis.text("|");
+    setTimeout(function () {
+      thhis.css("opacity", 1);
+      thhis.prev().removeAttr("style");
+      thhis.text("");
+      for (var i = 0; i < amntOfChars; i++) {
+        (function (i, char) {
+          setTimeout(function () {
+            newString += char;
+            thhis.text(newString);
+          }, i * typingSpeed);
+        })(i + 1, text[i]);
+      }
+    }, 1000);
   }
 
   $(document).ready(function () {
     $(window).on('load', fullWidth);
+
+
+    $(window).on('scroll', (function () {
+      $('.div-animation').each(function (i) {
+
+        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if (bottom_of_window > bottom_of_object) {
+          $(this).animate({ 'opacity': '1' }, 1500);
+        }
+
+      });
+
+      $('.about-us').each(function (i) {
+
+        var bottom_of_object = $(this).position().top;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if (bottom_of_window > bottom_of_object && x === 0) {
+          autoType(".type-js", 200);
+          x++;
+          setTimeout(function () {
+            $("#particles-js").animate({ 'opacity': '1' }, 1500);
+            $('.about-us-text').animate({ 'opacity': '1' }, 1500);
+          }, 4000);
+        }
+
+      });
+
+    }));
+
   });
 
   function openNav() {
@@ -48,6 +147,10 @@
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+
+  particlesJS.load('particles-js', 'assets/particles.json');
+
+
 </script>
 </body>
 </html>
