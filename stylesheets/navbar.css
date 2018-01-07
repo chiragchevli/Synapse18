@@ -64,6 +64,14 @@ a:hover {
     width: 55px;
 }
 
+.left-align{
+    text-align : left;
+}
+
+.right-align{
+    text-align : right;
+}
+
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px

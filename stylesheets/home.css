@@ -48,21 +48,118 @@
     webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-family: Roboto, sans-serif;
-    font-weight:100;
+    font-weight: 100;
     letter-spacing: 0.7px;
     opacity: 0;
 }
 
-/*.bg-image-wrapper {*/
-/*margin: auto;*/
-/*background-image: url("../assets/giphy.webp");*/
-/*height: 100%;*/
-/*background-position: center;*/
-/*background-repeat: no-repeat;*/
-/*background-size: cover;*/
-/*width: 100%;*/
-/*opacity: 1;*/
-/*}*/
+.gallery {
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+
+#gallery-text {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 46px;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+
+.image-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    margin-bottom: 40px;
+    opacity: 0;
+}
+
+.template-track {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    will-change: transform;
+    transform: translateX(-611.91px) translateY(0px) translateZ(0px) scaleX(1) scaleY(1) scaleZ(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
+}
+
+.template-wrap {
+    overflow: hidden;
+    width: 400px;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+}
+
+.cover-image {
+    width: 100%;
+}
+
+#event-text {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 46px;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+
+.events {
+    background-color: #fafafa;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 100px 0px;
+}
+
+.div-padding {
+    padding: 6px 42px !important;
+}
+
+.event-name {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 46px;
+    line-height: 110%;
+    margin: 0;
+    font-weight: 100;
+}
+
+.event-tile {
+    margin: 80px 0px;
+}
+
+.event-type {
+    font-size: 24px;
+    color: #3d3d3d;
+    webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.7px;
+    margin: 10px 0px;
+}
+
+.event-desc {
+    font-size: 20px;
+    color: #767676;
+    webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.4px;
+    text-align: justify !important;
+    text-justify: inter-word;
+}
 
 @-webkit-keyframes Floating {
     0% {
