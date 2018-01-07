@@ -1,6 +1,6 @@
 .text-js {
     opacity: 0;
-    color: #68d9b5;
+    color: #6bcca9;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 46px;
     line-height: 110%;
@@ -15,7 +15,7 @@
     top: 0;
     right: -15px;
     width: 2px;
-    background-color:  #68d9b5;
+    background-color: #6bcca9;
     z-index: 1;
     animation: flash 0.5s none infinite alternate;
 }
