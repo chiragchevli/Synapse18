@@ -93,3 +93,7 @@ a:hover {
     cursor: pointer;
     color: #848484;
 }
+
+.row {
+    margin-right: 0px !important;
+}

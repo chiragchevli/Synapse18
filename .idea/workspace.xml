@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12709395-76e6-4882-ba5b-b84ac03e2a82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/navbar.css" afterPath="$PROJECT_DIR$/stylesheets/navbar.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/footer.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -47,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="570">
+              <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -160,9 +159,9 @@
         <option value="$PROJECT_DIR$/contact_us.html" />
         <option value="$PROJECT_DIR$/campus_ambassador.html" />
         <option value="$PROJECT_DIR$/stylesheets/home.css" />
-        <option value="$PROJECT_DIR$/stylesheets/navbar.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/footer.css" />
+        <option value="$PROJECT_DIR$/stylesheets/navbar.css" />
       </list>
     </option>
   </component>
@@ -756,12 +755,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515236244721</updated>
-      <workItem from="1515236246339" duration="44527000" />
+      <workItem from="1515236246339" duration="45144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44527000" />
+    <option name="totallyTimeSpent" value="45144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
@@ -951,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -973,6 +964,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
           <folding />
         </state>
       </provider>
