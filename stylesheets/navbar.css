@@ -85,7 +85,7 @@ a:hover {
 }
 
 .navbar-button {
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 45px;
     z-index: 1;
