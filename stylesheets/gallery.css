@@ -1,7 +1,12 @@
 .bg {
     background: linear-gradient(135deg, #e5eaff, #d3dffa);
     height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .bg-image {
     margin: auto;
@@ -15,6 +20,7 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    background-attachment: fixed;
 }
 
 .bg-over-image {
@@ -27,6 +33,7 @@
     width: 100%;
     opacity: 0;
     animation: hue-rotate 1.3s linear infinite;
+    background-attachment: fixed;
 }
 
 .bg-over-image-wrapper {
@@ -39,6 +46,36 @@
     width: 100%;
     opacity: 0;
     animation: hue-rotate 1.3s linear infinite;
+    background-attachment: fixed;
+}
+
+.gallery-container {
+    padding: 50px 100px;
+}
+
+.img-fluid {
+    padding: 10px;
+}
+
+.hover:hover {
+    opacity: 0.7;
+}
+
+.gallery-container {
+    padding: 100px 0px;
+}
+
+@media (max-width: 640px) {
+    .gallery-container {
+        padding: 50px;
+    }
+}
+
+.icon {
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 35px;
 }
 
 @-webkit-keyframes Floating {

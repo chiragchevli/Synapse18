@@ -5,9 +5,15 @@
     <title>Synapse'18</title>
     <link rel="stylesheet" type="text/css" href="./stylesheets/youth_run.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/typing.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/particle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/logo.png" type="image/gif" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.3.0/typeit.min.js"></script>
 </head>
 <body>
 <div class="main-icon">
@@ -20,19 +26,63 @@
         <a href="index.html">HOME</a>
         <a href="events.html">EVENTS</a>
         <a href="gallery.html">GALLERY</a>
-        <a href="contact_us.html">CONTACT US</a>
-        <a href="youth_run.html">YOUTH RUN</a>
-        <a href="campus_ambassador.html">CAMPUS AMBASSADOR</a>
+        <a href="contact_us.html">CONNECT</a>
+        <a href="https://synapse-2018.herokuapp.com/">SIGN IN</a>
+        <a href="https://synapse-2018.herokuapp.com/signup">SIGN UP</a>
     </div>
 </div>
 <div class="bg">
     <div class="bg-image">
-        <div class="bg-over-image">
-            <div class="bg-over-image-wrapper">
-            </div>
-        </div>
     </div>
 </div>
+
+<div class="youth-run">
+    <div class="container">
+        <h1 class="heading">ABOUT <strong>YOUTH RUN</strong></h1>
+        <hr class="under_head">
+        <p class="content">
+            The Youth Run is one of the most unique aspects of Synapse. It is a 7 km marathon in the city of Gandhinagar
+            organised in an attempt to promote ideas that drive the youth of today, social and otherwise and show our
+            support for the same. The Youth Run is a great display of what the youth is passionate about.<br>
+            This year, Youth Run will be organized on 22nd January, 2017 supporting the issues of Green Gandhinagar,
+            Swachh Gandhinagar and AIDS. The inspiration for the run is to provide the youth an opportunity to voice
+            their opinions on issues that are close to the society, while keeping their health at the centre.
+        </p>
+    </div>
+    <img src="assets/youth_run/Final-1.jpg" class="youth-run-img">
+    <!--<div class="container">-->
+    <!--<h1 class="heading">SPONSORS</h1>-->
+    <!--<hr class="under_head">-->
+    <!--</div>-->
+</div>
+
+<div class="footer">
+    <div class="row">
+        <div class="col-md-6">
+            <a class="footer-link" href="campus_ambassador.html">CAMPUS AMBASSADOR</a>
+            <a class="footer-link" href="https://drive.google.com/file/d/0BxO7yBkG1U5RbEZsRHJFZWxKc1E/view"
+                    target="_blank">TRAILER</a>
+            <a class="footer-link" href="https://drive.google.com/file/d/0BxO7yBkG1U5RT2w1aExzOFJJaDA/view"
+                    target="_blank">BROCHURE</a>
+            <a class="footer-link" href="youth_run.html">YOUTH RUN</a>
+        </div>
+        <div class="col-md-6 right-align">
+            <a href="https://www.instagram.com/synapsedaiict/" target="_blank" class=""><i
+                    class="fa fa-instagram fa-lg footer-icon" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/synapsedaiict/?fref=ts" target="_blank" class=""><i
+                    href="https://www.facebook.com/synapsedaiict/?fref=ts" class="fa fa-facebook fa-lg footer-icon"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/user/SynapseDAIICT" target="_blank" class=""><i
+                    class="fa fa-youtube-play fa-lg footer-icon" aria-hidden="true"></i></a>
+            <a href="mailto:synapse.thefest@gmail.com" target="_blank" class=""><i
+                    class="fa fa-envelope-o fa-lg footer-icon" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="footer-synapse-icon">
+        <img class="footer-synapse-icon-image" src="assets/logo.png">
+    </div>
+</div>
+
 
 <script>
   function fullWidth() {
@@ -41,6 +91,19 @@
   }
 
   $(document).ready(function () {
+    $(window).on('scroll', (function () {
+      $('.div-animation').each(function (i) {
+
+        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if (bottom_of_window > bottom_of_object) {
+          $(this).animate({ 'opacity': '1' }, 1500);
+        }
+
+      });
+
+    }));
   });
 
   function openNav() {

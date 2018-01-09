@@ -5,9 +5,7 @@
 
 .bg-image {
     margin: auto;
-    background-image: url("../assets/contact_us_before.png");
-    height: 100%;
-    width: 100%;
+    background-image: url("../assets/before-connect.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,28 +13,30 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    width: 100%;
+    height: 100%;
 }
 
 .bg-over-image {
     margin: auto;
-    background-image: url("../assets/contact_us_after.png");
-    height: 100%;
+    background-image: url("../assets/after-connect.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     opacity: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .bg-over-image-wrapper {
     margin: auto;
-    background-image: url("../assets/contact_us_over.png");
-    height: 100%;
+    background-image: url("../assets/after-connect-floaters.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     opacity: 0;
+    width: 100%;
+    height: 100%;
 }
 
 

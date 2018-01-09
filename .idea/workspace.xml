@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12709395-76e6-4882-ba5b-b84ac03e2a82" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cover/Rampage.jpg" afterPath="$PROJECT_DIR$/assets/cover/Rampage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cover/Rhapsody.JPG" afterPath="$PROJECT_DIR$/assets/cover/Rhapsody.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cover/edm_night.jpg" afterPath="$PROJECT_DIR$/assets/cover/edm_night.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cover/ingural.jpg" afterPath="$PROJECT_DIR$/assets/cover/ingural.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cover/ragna_rock.jpg" afterPath="$PROJECT_DIR$/assets/cover/ragna_rock.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/1.jpg" afterPath="$PROJECT_DIR$/assets/gallery/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/10.jpg" afterPath="$PROJECT_DIR$/assets/gallery/10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/11.jpg" afterPath="$PROJECT_DIR$/assets/gallery/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/12.jpg" afterPath="$PROJECT_DIR$/assets/gallery/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/13.jpg" afterPath="$PROJECT_DIR$/assets/gallery/13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/14.jpg" afterPath="$PROJECT_DIR$/assets/gallery/14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/15.jpg" afterPath="$PROJECT_DIR$/assets/gallery/15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/16.jpg" afterPath="$PROJECT_DIR$/assets/gallery/16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/17.jpg" afterPath="$PROJECT_DIR$/assets/gallery/17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/18.jpg" afterPath="$PROJECT_DIR$/assets/gallery/18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/19.jpg" afterPath="$PROJECT_DIR$/assets/gallery/19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/2.jpg" afterPath="$PROJECT_DIR$/assets/gallery/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/20.jpg" afterPath="$PROJECT_DIR$/assets/gallery/20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/3.jpg" afterPath="$PROJECT_DIR$/assets/gallery/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/4.jpg" afterPath="$PROJECT_DIR$/assets/gallery/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/5.jpg" afterPath="$PROJECT_DIR$/assets/gallery/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/6.jpg" afterPath="$PROJECT_DIR$/assets/gallery/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/7.jpg" afterPath="$PROJECT_DIR$/assets/gallery/7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/8.jpg" afterPath="$PROJECT_DIR$/assets/gallery/8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery/9.jpg" afterPath="$PROJECT_DIR$/assets/gallery/9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/particles.json" afterPath="$PROJECT_DIR$/assets/particles.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campus_ambassador.html" afterPath="$PROJECT_DIR$/campus_ambassador.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us.html" afterPath="$PROJECT_DIR$/contact_us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events.html" afterPath="$PROJECT_DIR$/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery.html" afterPath="$PROJECT_DIR$/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/contact_us.css" afterPath="$PROJECT_DIR$/stylesheets/contact_us.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/gallery.css" afterPath="$PROJECT_DIR$/stylesheets/gallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/home.css" afterPath="$PROJECT_DIR$/stylesheets/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/navbar.css" afterPath="$PROJECT_DIR$/stylesheets/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/typing.css" afterPath="$PROJECT_DIR$/stylesheets/typing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/youth_run.css" afterPath="$PROJECT_DIR$/stylesheets/youth_run.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youth_run.html" afterPath="$PROJECT_DIR$/youth_run.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +55,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="287" column="20" lean-forward="true" selection-start-line="287" selection-start-column="20" selection-end-line="287" selection-end-column="45" />
+            <state relative-caret-position="585">
+              <caret line="295" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
               <folding>
-                <marker date="1515402292000" expanded="true" signature="14356:14379" ph="..." />
+                <marker date="1515502628000" expanded="true" signature="14705:14728" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/footer.css">
+      <file leaf-file-name="campus_ambassador.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/campus_ambassador.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="30">
+              <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -39,48 +77,8 @@
       <file leaf-file-name="youth_run.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/youth_run.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_us.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact_us.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="campus_ambassador.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/campus_ambassador.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +87,40 @@
       <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="444">
+              <caret line="228" column="8" lean-forward="true" selection-start-line="216" selection-start-column="4" selection-end-line="228" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/gallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-596">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -99,18 +129,28 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+            <state relative-caret-position="296">
+              <caret line="165" column="29" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="particle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/particle.css">
+      <file leaf-file-name="youth_run.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stylesheets/youth_run.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="495">
+              <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typing.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/typing.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -131,6 +171,10 @@
     <findStrings>
       <find>particle</find>
     </findStrings>
+    <replaceStrings>
+      <replace>JPG</replace>
+      <replace>jpg</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,25 +187,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stylesheets/gallery.css" />
         <option value="$PROJECT_DIR$/stylesheets/campus_ambassador.css" />
-        <option value="$PROJECT_DIR$/stylesheets/contact_us.css" />
-        <option value="$PROJECT_DIR$/stylesheets/youth_run.css" />
         <option value="$PROJECT_DIR$/assets/particles.js" />
         <option value="$PROJECT_DIR$/JS/new.js" />
-        <option value="$PROJECT_DIR$/assets/particles.json" />
         <option value="$PROJECT_DIR$/stylesheets/particle.css" />
-        <option value="$PROJECT_DIR$/stylesheets/typing.css" />
         <option value="$PROJECT_DIR$/stylesheets/events.css" />
+        <option value="$PROJECT_DIR$/stylesheets/footer.css" />
+        <option value="$PROJECT_DIR$/stylesheets/contact_us.css" />
+        <option value="$PROJECT_DIR$/stylesheets/typing.css" />
+        <option value="$PROJECT_DIR$/assets/particles.json" />
+        <option value="$PROJECT_DIR$/stylesheets/gallery.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gallery.html" />
-        <option value="$PROJECT_DIR$/youth_run.html" />
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/contact_us.html" />
         <option value="$PROJECT_DIR$/campus_ambassador.html" />
         <option value="$PROJECT_DIR$/stylesheets/home.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/stylesheets/footer.css" />
         <option value="$PROJECT_DIR$/stylesheets/navbar.css" />
+        <option value="$PROJECT_DIR$/stylesheets/youth_run.css" />
+        <option value="$PROJECT_DIR$/youth_run.html" />
       </list>
     </option>
   </component>
@@ -215,6 +259,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Synapse18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Synapse18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -755,12 +813,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515236244721</updated>
-      <workItem from="1515236246339" duration="45144000" />
+      <workItem from="1515236246339" duration="57284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45144000" />
+    <option name="totallyTimeSpent" value="57284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
@@ -810,22 +868,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylesheets/contact_us.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/youth_run.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/campus_ambassador.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -862,101 +904,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/particles.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/events.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/typing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/campus_ambassador.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youth_run.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/particle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="287" column="20" lean-forward="true" selection-start-line="287" selection-start-column="20" selection-end-line="287" selection-end-column="45" />
-          <folding>
-            <marker date="1515402292000" expanded="true" signature="14356:14379" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,10 +920,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/particles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/contact_us.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/campus_ambassador.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="165" column="29" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/typing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        <state relative-caret-position="360">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="228" column="8" lean-forward="true" selection-start-line="216" selection-start-column="4" selection-end-line="228" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="295" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
+          <folding>
+            <marker date="1515502628000" expanded="true" signature="14705:14728" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youth_run.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/youth_run.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding />
         </state>
       </provider>

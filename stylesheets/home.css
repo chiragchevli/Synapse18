@@ -4,10 +4,54 @@
     animation: bright-rotate 3s both infinite;
 }
 
+.bg-blur-image {
+    background-image: url("../assets/synapse_padding_after.png");
+    height: 130%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: Floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-filter: blur(80px);
+    filter: blur(80px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.bg-blur-image-2 {
+    background-image: url("../assets/synapse_padding_after.png");
+    height: 70%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: Floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-filter: blur(80px);
+    filter: blur(80px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 .bg-image {
     margin: auto;
+    /*background-image: url("../assets/giffy2.gif");*/
     height: 100%;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     animation-name: Floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -15,6 +59,7 @@
 }
 
 .bg-over-image {
+    position: absolute;
     margin: auto;
     background-image: url("../assets/synapse_padding_after.png");
     height: 100%;
@@ -39,7 +84,7 @@
     position: relative;
     padding: 100px 0px 200px 0px;
     text-align: center;
-    background-color: #151617;
+    background-color: black;
 }
 
 .about-us-text {
@@ -199,10 +244,10 @@
         filter: brightness(80%);
     }
     50% {
-        -webkit-filter: brightness(150%);
-        -moz-filter: brightness(150%);
-        -ms-filter: brightness(150%);
-        filter: brightness(150%);
+        -webkit-filter: brightness(120%);
+        -moz-filter: brightness(120%);
+        -ms-filter: brightness(120%);
+        filter: brightness(120%);
     }
     100% {
         -webkit-filter: brightness(100%);
@@ -226,10 +271,10 @@
         filter: brightness(80%);
     }
     50% {
-        -webkit-filter: brightness(150%);
-        -moz-filter: brightness(150%);
-        -ms-filter: brightness(150%);
-        filter: brightness(150%);
+        -webkit-filter: brightness(120%);
+        -moz-filter: brightness(120%);
+        -ms-filter: brightness(120%);
+        filter: brightness(120%);
     }
     100% {
         -webkit-filter: brightness(100%);
