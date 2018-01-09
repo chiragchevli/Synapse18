@@ -53,6 +53,19 @@ a:hover {
     font-size: 60px;
 }
 
+.main-icon-2 {
+    z-index: 1;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    width: 55px;
+    height: 55px;
+    background-image: url("../assets/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main-icon {
     z-index: 1;
     position: absolute;

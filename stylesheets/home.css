@@ -1,12 +1,30 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../assets/press_start_2p/PressStart2P.ttf);
+    font-weight: bold;
+}
+
 .bg {
     background-color: black;
     height: 100%;
-    animation: bright-rotate 3s both infinite;
+    /*animation: bright-rotate 3s both infinite;*/
+}
+
+.press-start {
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 24px;
+    margin: auto;
+    position: absolute;
+    bottom: 25%;
+    left : 0;
+    right : 0;
+    color: white;
 }
 
 .bg-blur-image {
     background-image: url("../assets/synapse_padding_after.png");
-    height: 130%;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,8 +33,8 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    -webkit-filter: blur(80px);
-    filter: blur(80px);
+    -webkit-filter: blur(60px);
+    filter: blur(60px);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -26,7 +44,7 @@
 
 .bg-blur-image-2 {
     background-image: url("../assets/synapse_padding_after.png");
-    height: 70%;
+    height: 60%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,8 +53,8 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    -webkit-filter: blur(80px);
-    filter: blur(80px);
+    -webkit-filter: blur(60px);
+    filter: blur(60px);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -46,8 +64,8 @@
 
 .bg-image {
     margin: auto;
-    /*background-image: url("../assets/giffy2.gif");*/
-    height: 100%;
+    background-image: url("../assets/giffy.gif");
+    height: 90%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,6 +224,8 @@
     text-justify: inter-word;
 }
 
+
+
 @-webkit-keyframes Floating {
     0% {
         transform: translate(0, -20px) rotate(0.001deg);
@@ -271,9 +291,9 @@
         filter: brightness(80%);
     }
     50% {
-        -webkit-filter: brightness(120%);
-        -moz-filter: brightness(120%);
-        -ms-filter: brightness(120%);
+        -webkit-filter: brightness(130%);
+        -moz-filter: brightness(130%);
+        -ms-filter: brightness(130%);
         filter: brightness(120%);
     }
     100% {

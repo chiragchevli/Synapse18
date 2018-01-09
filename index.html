@@ -31,8 +31,8 @@
         <a href="events.html">EVENTS</a>
         <a href="gallery.html">GALLERY</a>
         <a href="contact_us.html">CONNECT</a>
-        <a href="https://synapse-2018.herokuapp.com/">SIGN IN</a>
-        <a href="https://synapse-2018.herokuapp.com/signup">SIGN UP</a>
+        <a target="_blank" href="https://synapse-2018.herokuapp.com/">SIGN IN</a>
+        <a target="_blank" href="https://synapse-2018.herokuapp.com/signup">SIGN UP</a>
     </div>
 </div>
 <div class="bg">
@@ -40,14 +40,15 @@
         <div class="bg-over-image">
         </div>
     </div>
-    <div class="bg-blur-image">
-    </div>
-    <div class="bg-blur-image-2"></div>
+    <a href="#about-us"><p class="press-start">PRESS START</p></a>
+    <!--<div class="bg-blur-image">-->
+    <!--</div>-->
+    <!--<div class="bg-blur-image-2"></div>-->
 </div>
 
 <!--<div class="mid-divison"></div>-->
 
-<div class="about-us">
+<div class="about-us" id="about-us">
     <div id="particles-js"></div>
     <div class="container">
         <div class="type-js headline">
@@ -182,7 +183,7 @@
                 </div>
                 <div class="col-lg-8 div-padding left-align">
                     <p class="event-name">EDM NIGHT</p>
-                    <p class="event-type">PRONITES</p>
+                    <p class="event-type">PRO NITES</p>
                     <p class="event-desc">Celebrate the non-stop mixes of Sunburn and VH1 Supersonic.The best DJs in the
                         country are in the house to transcend the crowd.
                     </p>
@@ -193,7 +194,7 @@
             <div class="row">
                 <div class="col-lg-8 div-padding right-align">
                     <p class="event-name">RAGNA ROCK</p>
-                    <p class="event-type">PRONITES</p>
+                    <p class="event-type">PRO NITES</p>
                     <p class="event-desc">Witness the best of the best; Inner Sanctum, Providence, Demonic Resurrection,
                         Bhayanak Maut, Undying Inc. and more.
                     </p>
@@ -304,8 +305,24 @@
 
 
   function fullWidth() {
-    $('.bg-over-image').animate({ opacity: 1 }, 1000);
+    $('.bg-over-image').animate({ opacity: 1 }, 6000);
   }
+
+  function blink() {
+    setTimeout(function(){
+      $('.press-start').fadeOut(300);
+    }, 3000);
+    blink2();
+  }
+
+  function blink2() {
+    setTimeout(function(){
+      $('.press-start').fadeIn(300);
+    }, 3000);
+    blink();
+  }
+
+
 
 
   var x = 0;
@@ -436,6 +453,8 @@
   particlesJS.load('particles-js', 'assets/particles.json');
 
   fullWidth();
+
+  blink();
 
 </script>
 </body>
