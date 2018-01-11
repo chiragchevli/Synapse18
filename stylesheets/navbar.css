@@ -91,6 +91,18 @@ a:hover {
     text-align : right;
 }
 
+.a-simple {
+    color: inherit;
+}
+
+.a-simple:hover {
+    color: inherit;
+}
+
+.center {
+    justify-content: center;
+}
+
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px
