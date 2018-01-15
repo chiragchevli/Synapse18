@@ -53,9 +53,9 @@
                 </a>
             </div>
             <div class="col-md-3 div-animation">
-                <a class="hover" href="./assets/gallery_big/3.jpg" data-toggle="lightbox"
+                <a class="hover" href="./assets/others/sonu1.jpg" data-toggle="lightbox"
                         data-gallery="example-gallery">
-                    <img src="./assets/gallery/3.jpg" width="100%" class="img-fluid">
+                    <img src="./assets/others/sonu1.jpg" width="100%" class="img-fluid" height="156">
                 </a>
             </div>
             <div class="col-md-3 div-animation">
@@ -119,9 +119,9 @@
         </div>
         <div class="row">
             <div class="col-md-3 div-animation">
-                <a class="hover" href="./assets/gallery_big/13.jpg" data-toggle="lightbox"
+                <a class="hover" href="./assets/others/shailee.jpg" data-toggle="lightbox"
                         data-gallery="example-gallery">
-                    <img src="./assets/gallery/13.jpg" width="100%" class="img-fluid">
+                    <img src="./assets/others/shailee.jpg" width="100%" class="img-fluid">
                 </a>
             </div>
             <div class="col-md-3 div-animation">
@@ -137,9 +137,9 @@
                 </a>
             </div>
             <div class="col-md-3 div-animation">
-                <a class="hover" href="./assets/gallery_big/16.jpg" data-toggle="lightbox"
+                <a class="hover" href="./assets/others/dadc.jpg" data-toggle="lightbox"
                         data-gallery="example-gallery">
-                    <img src="./assets/gallery/16.jpg" width="100%" class="img-fluid">
+                    <img src="./assets/others/dadc.jpg" width="100%" class="img-fluid">
                 </a>
             </div>
         </div>
@@ -218,11 +218,11 @@
     $(window).on('scroll', (function () {
       $('.div-animation').each(function (i) {
 
-        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+        var bottom_of_object = $(this).position().top;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
 
         if (bottom_of_window > bottom_of_object) {
-          $(this).animate({ 'opacity': '1' }, 1500);
+          $(this).animate({ 'opacity': '1' }, 2000);
         }
 
       });
