@@ -62,7 +62,7 @@ Footer Top
 footer.do-footer .do-footer-top{
     overflow: hidden;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     border-bottom: 1px solid #373737;
 }
 
@@ -120,7 +120,7 @@ footer.do-footer .do-footer-top .do-footer-about-widget .do-company-address ul{}
 
 footer.do-footer .do-footer-top .do-footer-about-widget .do-company-address ul li{
     position: relative;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-bottom: 13px;
     color: #717171;
 }
